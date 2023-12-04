@@ -54,7 +54,7 @@ function Women({ addProductsToCart, addToWishlist }) {
                     <h4 className="product-price">P{product.price}</h4>
                 </div>
                 <button className="btn add-cart-btn" onClick={() => addProductsToCart(product)}>Add to Cart</button>
-                <button className="fav" onClick={() => addToWishlist(product)}><i class="fa-regular fa-heart"></i></button>
+                <button className="fav" onClick={() => addToWishlist(product)}><i className="fa-regular fa-heart"></i></button>
             </div>
             ))}
         </div>

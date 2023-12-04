@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer({ setFavoriteVisible, productsInWishlist }) {
   return (
@@ -27,7 +28,7 @@ function Footer({ setFavoriteVisible, productsInWishlist }) {
            <a href="">About Us</a>
            <a href="">Privacy Policy</a>
            <a href="">Terms & Conditions</a>
-           <a href="/contact">Contact Us</a>
+           <Link to="/contact">Contact Us</Link>
         </div>
 
         <div className="col">
