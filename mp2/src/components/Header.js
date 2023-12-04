@@ -11,23 +11,23 @@ function Header({ setCartVisibility, productsInCart, setFavoriteVisible, product
     <>
       <section id="header">
       
-        <Link to="#"><img src="img/logo.jpg" alt="" className="logo" /></Link >
+        <a href="#"><img src="img/logo.jpg" alt="" className="logo" /></a >
         <div>
             <ul className={ isMobile ? "navbar-mobile-links" : "navbar" } onClick={() => setIsMobile(false)}>
-                <li><Link to="/">Home</Link ></li>
+                <li><a href="/">Home</a ></li>
                 <li>
-                    <Link to="/shop">Shops</Link >
+                    <a href="/shop">Shops</a >
                     <div id="dropdown">
                         <ul>
-                            <li><Link to="/men">Men</Link></li>
-                            <li><Link to="/women">Women</Link ></li>
-                            <li><Link to="/shoes">Shoes</Link ></li>
-                            <li><Link to="/accessories">Accessories</Link ></li>
+                            <li><a href="/men">Men</a></li>
+                            <li><a href="/women">Women</a ></li>
+                            <li><a href="/shoes">Shoes</a ></li>
+                            <li><a href="/accessories">Accessories</a ></li>
                         </ul>
                     </div>
                 
                 </li>
-                <li><Link to="/blog">Blog</Link ></li>
+                <li><a href="/blog">Blog</a ></li>
                 <li>
                   <a onClick={() => setFavoriteVisible(true)}><i className="fa-regular fa-heart">
                     {productsInWishlist.length > 0 && (<span className="span">{productsInWishlist.length}</span>)}
@@ -38,7 +38,7 @@ function Header({ setCartVisibility, productsInCart, setFavoriteVisible, product
                       {productsInCart.length > 0 && (<span className="span">{productsInCart.length}</span>)}
                     </i></a >
                 </li>
-                <li><Link to="/signin">Sign In</Link></li>
+                <li><a href="/signin">Sign In</a></li>
             </ul>
         </div>
         <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
