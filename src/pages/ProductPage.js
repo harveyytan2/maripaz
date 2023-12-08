@@ -1,11 +1,15 @@
 import React from 'react'
 
 
+
 function ProductPage() {
+
+  
+
   return (
     <section id="product-page" className="section-p1">
         <div className="single-pro-image">
-            <img src="img/shop/accessory1.jpg" id="main-img" />
+            <img src={process.env.PUBLIC_URL + "/img/shop/accessory1.jpg"} id="main-img" />
         </div>
         <div className="prod-details" >
           <div className="single-pro-details">

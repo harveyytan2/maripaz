@@ -155,7 +155,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/productpage" element={<ProductPage addProductsToCart={addProductsToCart}/>} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/men" element ={<Men addProductsToCart={addProductsToCart} addToWishlist={addToWishlist} />} />
+          <Route path="/men" element ={<Men addProductsToCart={addProductsToCart} addToWishlist={addToWishlist}/>} />
           <Route path="/women" element={<Women addProductsToCart={addProductsToCart} addToWishlist={addToWishlist} />} />
           <Route path="/shoes" element={<Shoes addProductsToCart={addProductsToCart} addToWishlist={addToWishlist} />} />
           <Route path="/accessories" element={<Accessories addProductsToCart={addProductsToCart} addToWishlist={addToWishlist} />} />

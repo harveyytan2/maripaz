@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer({ setFavoriteVisible, productsInWishlist }) {
   return (
     <>
       <footer className="section-p1">
         <div className="col">
-          <img src="img/logo.jpg" className="logo2"/>
+          <img src={process.env.PUBLIC_URL +"/img/logo.jpg"} className="logo2"/>
           <h4>Contact</h4>
           <p><strong>Address:</strong>#4 L.Dimayuga St. Lipa City, Batangas</p>
           <p><strong>Phone:</strong>(+63)926-004-5117</p>
@@ -27,12 +28,12 @@ function Footer({ setFavoriteVisible, productsInWishlist }) {
            <a href="">About Us</a>
            <a href="">Privacy Policy</a>
            <a href="">Terms & Conditions</a>
-           <a href="/contact">Contact Us</a>
+           <Link to="/contact">Contact Us</Link>
         </div>
 
         <div className="col">
         <h4>My Account</h4>
-           <a href="">Sign In</a>
+           <a href="/signin">Sign In</a>
            <a className="onClick" onClick={() => setFavoriteVisible(true)}>Wishlists/Favorite</a>
            <a href="">Help</a>
         </div>
