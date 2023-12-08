@@ -6,6 +6,13 @@
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
 }
+.no-product{
+    font-size: 22px;
+    text-align: center;
+    line-height: 54px;
+    color: #222;
+    padding: 50px;
+}
 h1{
     font-size: 50px;
     line-height: 64px;
@@ -916,7 +923,50 @@ select{
 .prod-details p{
   padding: 30px 0;
 }
+/*Product Preview*/
+.detail_container{
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  width: 900px;
+  background-color: #fff;
+  margin-left: 20%;
+  margin-top: 5%;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  border: 1px solid #e8e8e8;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.detail_container .detail_contant{
+  max-width: 100%;
 
+}
+.detail_container .detail_contant .detail_info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.detail_container .detail_contant .detail_info .img-box img{
+  width: 380px;
+  height: 500px;
+}
+.detail_container .detail_contant .detail_info .product_detail{
+  margin-left: 30px;
+
+}
+.detail_container .detail_contant .detail_info .product_detail p{
+  padding-top: 5%;
+}
+.detail_container .detail_contant .cls{
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 92%;
+  top: 5%;
+}
 /* Start of Media Query */
 @media (max-width: 799px){
   .navbar {
@@ -1170,5 +1220,34 @@ select{
   }
   .contact-form textarea{
     width: 55%;
+    
   }
+  #category{
+    height: 25vh;
+    
+  }
+  .detail_container{
+    width: 90%;
+    
+    margin-left: 5%;
+    
+  }
+  .detail_container .detail_contant{
+    max-width: 100%;
+  
+  }
+  
+  .detail_container .detail_contant .detail_info .img-box img{
+    width: 290px;
+    height: 390px;
+  }
+  .detail_container .detail_contant .detail_info .product_detail{
+    margin-top: 140%;
+    margin-left: -100%;
+  }
+  .detail_container .detail_contant .cls{
+    font-size: 2rem;
+    top: 10px;
+  }
+  
 }

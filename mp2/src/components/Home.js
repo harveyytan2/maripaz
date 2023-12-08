@@ -18,7 +18,7 @@ function Home() {
         <p>Christmas Collection. New Modern Design</p>
         <div className="pro-container">
             <div className="pro">
-                <img src="img/featured/featured1.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL +"/img/featured/featured1.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
@@ -27,7 +27,7 @@ function Home() {
                 <Link to="/shop"><button className="btn add-cart-btn">View Shop</button></Link>
             </div>
             <div className="pro">
-                <img src="img/featured/featured3.3.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL +"/img/featured/featured3.3.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
@@ -36,7 +36,7 @@ function Home() {
                 <Link to="/shop"><button className="btn add-cart-btn">View Shop</button></Link>
             </div>
             <div className="pro">
-                <img src="img/featured/featured3.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL +"/img/featured/featured3.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
@@ -45,7 +45,7 @@ function Home() {
                 <Link to="/shop"><button className="btn add-cart-btn">View Shop</button></Link>
             </div>
             <div className="pro">
-                <img src="img/featured/featured4.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/img/featured/featured4.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
@@ -65,7 +65,7 @@ function Home() {
         <p>Christmas Collection. New Modern Design</p>
         <div className="pro-container">
             <div className="pro">
-                <img src="img/featured/featured9.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/img/featured/featured9.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
@@ -74,7 +74,7 @@ function Home() {
                 <a href='/men'><button className="btn add-cart-btn">View more</button></a>
             </div>
             <div className="pro">
-                <img src="img/featured/featured6.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/img/featured/featured6.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
@@ -83,7 +83,7 @@ function Home() {
                 <a href='/women'><button className="btn add-cart-btn">View more</button></a>
             </div>
             <div className="pro">
-                <img src="img/shop/shoes/s6.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/img/shop/shoes/s6.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
@@ -92,7 +92,7 @@ function Home() {
                 <a href='/shoes'><button className="btn add-cart-btn">View more</button></a>
             </div>
             <div className="pro">
-                <img src="img/shop/accessories/a7.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL +"/img/shop/accessories/a7.jpg"} alt="" />
                 <div className="des">
                     <span>Maripaz</span>
                     <h5>Rose Gold Watch</h5>
