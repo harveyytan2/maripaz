@@ -100,7 +100,7 @@ function App() {
         options: [
           { value: 1, label: 'How to order', trigger: '3' },
           { value: 2, label: 'How to refund', trigger: '4' },
-          { value: 3, label: 'Get ako lods san meron', trigger: '5' },
+          { value: 3, label: 'Whats your Location', trigger: '5' },
         ],
       },
       {
@@ -115,11 +115,11 @@ function App() {
       },
       {
         id: '5',
-        message: 'Secret',
+        message: 'Lipa City, Batangas',
         trigger: '2',
       }
     ]}
-    style={{height: "760px"}}
+    style={{height: "550px"}}
     
     floating={true}
   />

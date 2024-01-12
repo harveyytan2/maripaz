@@ -10,7 +10,7 @@ const products = [
   },{
       id: 241,
       name: "Men Ribbed Knit Top",
-      price: 599,
+      price: 299,
       img: process.env.PUBLIC_URL + "/img/shop/w1.jpg"
   },{
       id: 33,
@@ -28,27 +28,27 @@ const products = [
       price: 799,
       img: process.env.PUBLIC_URL + "/img/shop/accessory5.jpg"
   },{
-    id: 51,
+    id: 532,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/w7.jpg"
   },{
-    id: 512423,
+    id: 542423,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/accessory15.jpg"
   },{
-    id: 51123,
+    id: 552123,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/accessory13.jpg"
   },{
-    id: 5167575,
+    id: 561167575,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/w5.jpg"
   },{
-    id: 5112312,
+    id: 57112312,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/accessory5.jpg"
@@ -58,27 +58,27 @@ const products = [
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/w4.jpg"
   },{
-    id: 5176534,
+    id: 58176534,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/accessory10.jpg"
   },{
-    id: 5112355,
+    id: 57112355,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/w11.jpg"
   },{
-    id: 51867867,
+    id: 561867867,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/w13.jpg"
   },{
-    id: 51867867,
-    name: process.env.PUBLIC_URL + "/Men Simple Layered Bracelet",
+    id: 551867867,
+    name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/accessory7.jpg"
   },{
-    id: 51867867,
+    id: 521867867,
     name: "Men Simple Layered Bracelet",
     price: 799,
     img: process.env.PUBLIC_URL + "/img/shop/w16.jpg"
